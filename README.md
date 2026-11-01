@@ -40,7 +40,8 @@ python Affichage.py
 ## Bonnes pratiques
 
 Fonctions courtes, docstrings, imports organisés, indentation à quatre espaces, noms explicites, absence de `while True` bloquant Tkinter, lancement protégé par `if __name__ == "__main__"`.
-
+## Adresse GIT
+https://github.com/Nessim694/TP4_breakout
 
 
 ## Limitations / améliorations possibles
