@@ -67,22 +67,32 @@ class Balle:
         if(self.vy >0 and dx2 >= rx1 and  dx1 <= rx2 and dy2 >= ry1 and dy1 <ry2):
             self.vy = -self.vy
 
+    
+  
     def collision_briques(self, briques):
-        dx1, dy1, dx2, dy2 = self.canvas.coords(self.balle)
+        """Détecte et détruit une brique touchée."""
 
-        for brique in briques.briques:
-            rx1, ry1, rx2, ry2 = self.canvas.coords(brique)
+        bx1, by1, bx2, by2 = self.canvas.coords(self.balle)
 
-            if (dx2 >= rx1 and dx1 <= rx2
-                    and dy2 >= ry1 and dy1 <= ry2):
+        for identifiant in briques.briques:
+            rx1, ry1, rx2, ry2 = self.canvas.coords(identifiant)
 
-                self.vy = -self.vy
-                print("touchée")
-                self.canvas.delete(brique)
-                briques.briques.remove(brique)
-                return True
-            
-        return False        
+            if (bx2 >= rx1 and bx1 <= rx2
+                    and by2 >= ry1 and by1 <= ry2):
+
+                ancien_x1 = bx1 - self.vx
+                ancien_x2 = bx2 - self.vx
+
+                # Si la balle arrivait depuis un côté
+                if ancien_x2 <= rx1 or ancien_x1 >= rx2:
+                    self.vx = -self.vx
+                else:
+                    self.vy = -self.vy
+
+                return briques.detruire(identifiant)
+
+        return None
+
 
                
             
