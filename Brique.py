@@ -1,15 +1,15 @@
-# """
-# TP4 - Casse-brique
-# Fichier Affichage
+"""
+TP4 - Casse-brique
+Fichier : Brique.py
 
-# Date : 15/10/2026
-# Version : v1
-# Auteur : Adel et Nessim
+Date : 01/11/2026
+Version : v2
+Auteurs : Adel et Nessim
 
-# Objectif : 
+Objectif : Créer les briques ordinaires et spéciales, enregistrer leurs identifiants et supprimer les briques détruites.
 
-# To do :
-# """
+À faire : Ajouter éventuellement des niveaux et des briques résistantes.
+"""
 
 import random
 

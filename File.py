@@ -1,4 +1,15 @@
-"""TP4 - File FIFO des événements du jeu (Adel et Nessim, 2026)."""
+"""
+TP4 - Casse-brique
+Fichier : File.py
+
+Date : 01/11/2026
+Version : v2
+Auteurs : Adel et Nessim
+
+Objectif : Implémenter une file utilisée pour traiter dans l’ordre les événements de score et de bonus.
+
+À faire : Aucun pour la version actuelle.
+"""
 
 from collections import deque
 

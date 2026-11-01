@@ -1,15 +1,16 @@
-# """
-# TP4 - Casse-brique
-# Fichier Raquette
+"""
+TP4 - Casse-brique
+Fichier : Raquette.py
 
-# Date : 15/10/2026
-# Version : v1
-# Auteur : Adel et Nessim
+Date : 01/11/2026
+Version : v2
+Auteurs : Adel et Nessim
 
-# Objectif : 
+Objectif : Dessiner la raquette et assurer son déplacement horizontal au clavier sans sortir du Canvas.
 
-# To do :
-# """
+À faire : Permettre éventuellement de modifier les touches.
+"""
+
 
 class Raquette:
     def __init__(self, canvas): 

@@ -1,15 +1,16 @@
-# """
-# TP4 - Casse-brique
-# Fichier Affichage
+"""
+TP4 - Casse-brique
+Fichier : Balle.py
 
-# Date : 15/10/2026
-# Version : v1
-# Auteur : Adel et Nessim
+Date : 01/11/2026
+Version : v2
+Auteurs : Adel et Nessim
 
-# Objectif : Creation de la classe Balle qui gere la physique de la balle
+Objectif : Gérer la position, les rebonds sur les murs, la raquette et les briques.
 
-# To do :
-# """
+À faire : Améliorer si nécessaire les rebonds dans les coins des briques.
+"""
+
 
 class Balle:
       
