@@ -16,6 +16,7 @@ class Raquette:
     def __init__(self, canvas): 
            self.canvas = canvas
            self.raquette = self.canvas.create_rectangle(250,460,350,475, fill="blue")
+           # Valeur unique à modifier pour accélérer ou ralentir la raquette.
            self.vitesse = 15
 
     def _deplacer(self, event):

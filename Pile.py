@@ -14,6 +14,7 @@ class Pile:
     """Stocke des bonus : dernier ajouté, premier retiré."""
 
     def __init__(self):
+         # Une liste Python suffit pour implémenter une pile LIFO.
         self.elements = []
 
     def empiler(self, element):
