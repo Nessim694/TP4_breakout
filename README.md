@@ -41,9 +41,7 @@ python Affichage.py
 
 Fonctions courtes, docstrings, imports organisés, indentation à quatre espaces, noms explicites, absence de `while True` bloquant Tkinter, lancement protégé par `if __name__ == "__main__"`.
 
-## Git
 
-Adresse du dépôt Git : **à renseigner avant la remise**.
 
 ## Limitations / améliorations possibles
 
